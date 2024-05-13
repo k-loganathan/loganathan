@@ -1,0 +1,30 @@
+/* job background */
+.hero-container p span span {
+  color: var(--bg-color);
+}
+
+@keyframes job-bg {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+.hero-container p span span::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-color: var(--sec-color);
+  border-radius: 5px;
+  animation: job-bg 2s ease-in-out;
+}
+

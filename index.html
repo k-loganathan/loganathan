@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loganathan k</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- stylesheet -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+    <link rel="stylesheet" href="css/query.css" />
+  </head>
+  <body>
+    <div id="back">
+      <div class="header">
+        <!-- Nav Section -->
+        <div class="nav-sec">
+          <div class="nav-container">
+            <div class="nav-logo">Loganathan K</div>
+            <div class="nav-items">
+              <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#project">Projects</a></li>
+              </ul>
+              <button onclick="closeMenu()" class="menu-btn menu-close-icon">
+                <i class="bi bi-x-circle"></i>
+              </button>
+            </div>
+            <button onclick="openMenu()" class="menu-btn menu-open-icon">
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Section -->
+        <section class="hero-section">
+          <div class="hero-container">
+            <div class="hero-txt">
+              <img src="img/main-profile.png" alt="Loganathan Profile image" />
+              <h1>
+                Hey, I am <br /><span data-text="Loganathan K"
+                  >Loganathan K</span
+                >
+              </h1>
+              <div class="role"><span class="role-txt"></span></div>
+              <p>Open to work</p>
+            </div>
+            <p>
+              Motivated and adaptable eager to contribute and learn. <br />
+              <!-- <span
+              >Passionate<span> Web Developer </span>and<span>
+                UI/UX designer.</span
+              ></span
+            > -->
+            </p>
+
+            <div class="hero-btns">
+              <a
+                href="https://www.linkedin.com/in/loganathan-k-998227244/"
+                class="linkedin-btn"
+                target="_blank"
+                ><i class="bi bi-linkedin"> </i> LinkedIn</a
+              >
+              <a href="#" class="github-btn"
+                ><i class="bi bi-github"> </i> GitHub</a
+              >
+              <a class="cv-btn fileSrc" file-data="img/works/resume.jpg"
+                ><i class="bi bi-file-earmark-person"> </i> Resume</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Floting Section -->
+
+    <section class="float-section">
+      <div class="float-container">
+        <img
+          class="card-img"
+          src="img/otw-profile.png"
+          alt="Loganathan Open to work Profile image"
+        />
+        <p>Hey, I am</p>
+        <h2>Loganathan K</h2>
+        <p>Web Developer</p>
+        <div class="float-btns">
+          <div class="float-links">
+            <a
+              href="https://www.linkedin.com/in/loganathan-k-998227244/"
+              target="_blank"
+              ><button>
+                LinkedIn
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon></button
+            ></a>
+            <a class="fileSrc" file-data="img/works/resume.jpg"
+              ><button>
+                Resume
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon></button
+            ></a>
+          </div>
+          <a href="#" target="_blank"
+            ><button class="contact-btn">
+              Hire me
+              <ion-icon
+                class="proj-link-ico"
+                name="arrow-forward-outline"
+              ></ion-icon></button
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section sec-container" id="about">
+      <div class="about-container grid grid--2-column">
+        <div class="about-txt">
+          <h2><i class="bi bi-hash"></i><span>About me</span></h2>
+          <p>
+            I am a graphic designer and video editor currently studying at
+            Bharathiar University. I am passionate about creating visually
+            compelling designs. <br /><br />As a YouTuber with a passion for
+            creating compelling content, I am proud to be the owner of Logu
+            Tamil, a YouTube channel.
+          </p>
+        </div>
+        <div class="skills-sec">
+          <h2><i class="bi bi-hash"></i><span>Skills</span></h2>
+          <p>Web Development:</p>
+          <div class="skills-contain">
+            <p class="skill-box">HTML</p>
+            <p class="skill-box">CSS</p>
+            <p class="skill-box">JavaScript</p>
+            <p class="skill-box">Bootstrap</p>
+          </div>
+          <p>Design Programs:</p>
+          <div class="skills-contain">
+            <p class="skill-box">Adobe Illustrator</p>
+            <p class="skill-box">Adobe Photoshop</p>
+            <p class="skill-box">Figma</p>
+          </div>
+          <p>Other Softwares:</p>
+          <div class="skills-contain">
+            <p class="skill-box">After Effects</p>
+            <p class="skill-box">Premiere Pro</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section sec-container" id="education">
+      <h2><i class="bi bi-mortarboard-fill"></i><span> Education</span></h2>
+
+      <div class="educa-container">
+        <div class="education">
+          <h6>2020 - 2021</h6>
+          <h4>High School Education</h4>
+          <p>Mathuvarayapuram High School</p>
+        </div>
+
+        <div class="education">
+          <h6>2021 - 2024</h6>
+          <h4>B.Voc Multimedia and Animation</h4>
+          <p>Bharathiar University</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-section sec-container" id="experience">
+      <h2><i class="bi bi-briefcase-fill"></i><span> Experience</span></h2>
+
+      <!-- this is same as education section, so we can use education class -->
+      <div class="educa-container">
+        <div class="education">
+          <h6>06 June - 29 Sep</h6>
+          <h4>Graphic Designer Intern - TechSnapie Solutions</h4>
+          <div class="skills-contain">
+            <p class="skill-box">Adobe Illustrator</p>
+            <p class="skill-box">Adobe Photoshop</p>
+          </div>
+        </div>
+
+        <div class="education">
+          <h6>Feb 2023 - Jul 2023</h6>
+          <h4>Web & Graphic Designer Intern - StateStreetIT</h4>
+          <div class="skills-contain">
+            <p class="skill-box">HTML</p>
+            <p class="skill-box">CSS</p>
+            <p class="skill-box">JavaScript</p>
+          </div>
+        </div>
+
+        <div class="education">
+          <h6>Present</h6>
+          <h4>Open to Work</h4>
+          <div class="skills-contain">
+            <p class="skill-box">Web Developer</p>
+            <p class="skill-box">UI / UX Designer</p>
+            <p class="skill-box">Graphic Designer</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Web Projecs -->
+
+    <section class="projects-section sec-container" id="project">
+      <h2><i class="bi bi-code-slash"></i><span> Projects</span></h2>
+      <div class="project-container grid grid--3-column">
+        <div class="project">
+          <a class="fileSrc" file-data="img/works/portfolio-prev-01.jpg">
+            <div class="proj-img-box">
+              <img src="img/works/portfolio-prev-01.jpg" alt="Project no 1" />
+            </div>
+          </a>
+          <h4>Portfolio</h4>
+          <p>Designed and developed a personalized portfolio website.</p>
+          <div class="skills-contain">
+            <p class="skill-box">
+              <a href="#"
+                ><i class="bi bi-github"></i> GitHub
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p>
+            <p class="skill-box">
+              <a
+                href="https://www.figma.com/design/7XHsTG1Bz9jQdEjfnQnEfo/Personal-Portfolio-(Community)?node-id=0%3A1&t=k8RuUktW7Ftbq25k-1"
+                target="_blank"
+                ><ion-icon name="logo-figma"></ion-icon> Figma
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <a class="fileSrc" file-data="img/works/ssit-full-prev.jpg">
+            <div class="proj-img-box">
+              <img src="img/works/ssitl-prev-sm.jpg" alt="Project no 1" />
+            </div>
+          </a>
+          <h4>Company Website</h4>
+          <p>Developed an engaging website for an edutech company.</p>
+          <div class="skills-contain">
+            <p class="skill-box">
+              <a href="https://k-loganathan.github.io/ssit/" target="_blank"
+                ><i class="bi bi-github"></i> GitHub
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p>
+            <!-- <p class="skill-box">
+              <a href="#"
+                ><ion-icon name="logo-figma"></ion-icon> Figma
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p> -->
+          </div>
+        </div>
+
+        <div class="project">
+          <a class="fileSrc" file-data="img/works/omni-prev-01-01.jpg">
+            <div class="proj-img-box">
+              <img src="img/works/omni-prev-01-01.jpg" alt="Project no 1" />
+            </div>
+          </a>
+          <h4>Omnifood Website</h4>
+          <p>Built a user-friendly food website.</p>
+          <div class="skills-contain">
+            <p class="skill-box">
+              <a
+                href="https://k-loganathan.github.io/food-website/"
+                target="_blank"
+                ><i class="bi bi-github"></i> GitHub
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p>
+            <!-- <p class="skill-box">
+              <a href="#"
+                ><ion-icon name="logo-figma"></ion-icon> Figma
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-project-section sec-container">
+      <h2>
+        <i class="bi bi-folder2-open"></i><span> Collage Main Project</span>
+      </h2>
+      <div class="main-project-contain">
+        <div class="main-proj-img-box">
+          <img
+            src="img/works/gl-prev-01.jpg"
+            alt="Collage main project image"
+          />
+        </div>
+        <div class="main-project-info">
+          <h4>GoLink - Cloud Web Application</h4>
+          <p>
+            Super thrilled to share my college project: GoLink!GoLink is a
+            fantastic cloud storage solution for managing files easily. Watch
+            the demo video where I'll show you how it works.
+          </p>
+          <button
+            class="proj-demo--btn vid-prev-btn"
+            src="https://www.youtube.com/embed/vshyX3JHqDA"
+          >
+            <i class="bi bi-play-circle-fill"></i> Demo Video
+            <ion-icon
+              class="proj-link-ico"
+              name="arrow-forward-outline"
+            ></ion-icon>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Graphic Design -->
+
+    <section class="graphic-section sec-container">
+      <h2><i class="bi bi-bezier"></i><span> Graphic Designs</span></h2>
+      <div class="graphic-container grid grid--3-column">
+        <div class="project">
+          <!-- <img src="img/project.png" alt="Project no 1" /> -->
+          <a class="fileSrc" file-data="img/works/img-1f.jpg">
+            <div class="proj-img-box">
+              <img src="img/works/img-1f.jpg" alt="Project no 1" />
+            </div>
+          </a>
+          <h4>Logo Creation</h4>
+          <p>Created a unique logo for a coffee shop.</p>
+          <div class="soft-contain">
+            <p class="soft-box">
+              <svg id="illustrator">
+                <path
+                  fill="#fff"
+                  d="M21.66 10.97c.695 0 1.264-.563 1.264-1.253s-.569-1.253-1.264-1.253c-.695 0-1.264.563-1.264 1.253 0 .695.563 1.253 1.264 1.253zM20.425 12.067h2.442v9.183h-2.442v-9.183zM12.655 18.171h3.304l.893 3.076h2.501L15.721 9.181h-3.036v1.191L9.5 21.247h2.262l.893-3.076zm1.637-6.843 1.221 4.733h-2.441l1.22-4.733z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M3.002 2.316v27.007h27.582V2.316H3.002zm25.514 24.881H5.11V4.442h23.406v22.755z"
+                ></path>
+              </svg>
+            </p>
+            <!-- <p class="soft-box">
+              <svg id="photoshop">
+                <path
+                  fill="#fff"
+                  d="M3.556 2.845v27.071h27.53V2.845H3.556zm25.34 24.918H5.745V4.998h23.151v22.765z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M16.555 10.442c-.693-.599-1.726-.939-3.173-.939-1.433 0-3.173.046-3.173.046v11.103h2.326v-3.568s.407-.005.847-.023c1.593-.067 2.526-.549 3.327-1.364.616-.631.955-1.53.955-2.627s-.447-2.062-1.109-2.628zm-3.235 4.673c-.375.004-.533.016-.786-.008v-3.834s.493-.017.971 0c1.198.044 1.833.89 1.833 1.921 0 1.148-.77 1.906-2.018 1.921zM22.205 15.455c-1.005-.356-1.324-.559-1.324-.949 0-.423.352-.677.972-.677.703 0 1.767.454 2.136.658v-1.871c-.502-.254-1.265-.566-2.22-.566-2.027 0-3.334 1.169-3.334 2.728-.017.965.636 1.655 2.329 2.231.955.322 1.206.767 1.206 1.191s-.318.695-1.089.695c-.754 0-1.86-.431-2.329-.718v1.847c.62.338 1.518.659 2.329.684 2.363.074 3.551-1.152 3.551-2.694-.017-1.22-.67-2.016-2.228-2.558z"
+                ></path>
+              </svg>
+            </p> -->
+          </div>
+        </div>
+
+        <div class="project">
+          <!-- <img src="img/project.png" alt="Project no 1" /> -->
+          <a class="fileSrc" file-data="img/works/label design-1.jpg">
+            <div class="proj-img-box">
+              <img src="img/works/label design-1.jpg" alt="Project no 1" />
+            </div>
+          </a>
+          <h4>Label Design</h4>
+          <p>Designed attractive labels for product packaging.</p>
+          <div class="soft-contain">
+            <p class="soft-box">
+              <svg xmlns="http://www.w3.org/2000/svg" id="illustrator">
+                <path
+                  fill="#fff"
+                  d="M21.66 10.97c.695 0 1.264-.563 1.264-1.253s-.569-1.253-1.264-1.253c-.695 0-1.264.563-1.264 1.253 0 .695.563 1.253 1.264 1.253zM20.425 12.067h2.442v9.183h-2.442v-9.183zM12.655 18.171h3.304l.893 3.076h2.501L15.721 9.181h-3.036v1.191L9.5 21.247h2.262l.893-3.076zm1.637-6.843 1.221 4.733h-2.441l1.22-4.733z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M3.002 2.316v27.007h27.582V2.316H3.002zm25.514 24.881H5.11V4.442h23.406v22.755z"
+                ></path>
+              </svg>
+            </p>
+            <p class="soft-box">
+              <svg xmlns="http://www.w3.org/2000/svg" id="photoshop">
+                <path
+                  fill="#fff"
+                  d="M3.556 2.845v27.071h27.53V2.845H3.556zm25.34 24.918H5.745V4.998h23.151v22.765z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M16.555 10.442c-.693-.599-1.726-.939-3.173-.939-1.433 0-3.173.046-3.173.046v11.103h2.326v-3.568s.407-.005.847-.023c1.593-.067 2.526-.549 3.327-1.364.616-.631.955-1.53.955-2.627s-.447-2.062-1.109-2.628zm-3.235 4.673c-.375.004-.533.016-.786-.008v-3.834s.493-.017.971 0c1.198.044 1.833.89 1.833 1.921 0 1.148-.77 1.906-2.018 1.921zM22.205 15.455c-1.005-.356-1.324-.559-1.324-.949 0-.423.352-.677.972-.677.703 0 1.767.454 2.136.658v-1.871c-.502-.254-1.265-.566-2.22-.566-2.027 0-3.334 1.169-3.334 2.728-.017.965.636 1.655 2.329 2.231.955.322 1.206.767 1.206 1.191s-.318.695-1.089.695c-.754 0-1.86-.431-2.329-.718v1.847c.62.338 1.518.659 2.329.684 2.363.074 3.551-1.152 3.551-2.694-.017-1.22-.67-2.016-2.228-2.558z"
+                ></path>
+              </svg>
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <!-- <img src="img/project.png" alt="Project no 1" /> -->
+          <a class="fileSrc" file-data="img/works/m3d logo.png">
+            <div class="proj-img-box">
+              <img src="img/works/m3d logo.png" alt="Project no 1" />
+            </div>
+          </a>
+          <h4>Logo Design</h4>
+          <p>Made a logo for a 3D printing company using Illustrator.</p>
+          <div class="soft-contain">
+            <p class="soft-box">
+              <svg xmlns="http://www.w3.org/2000/svg" id="illustrator">
+                <path
+                  fill="#fff"
+                  d="M21.66 10.97c.695 0 1.264-.563 1.264-1.253s-.569-1.253-1.264-1.253c-.695 0-1.264.563-1.264 1.253 0 .695.563 1.253 1.264 1.253zM20.425 12.067h2.442v9.183h-2.442v-9.183zM12.655 18.171h3.304l.893 3.076h2.501L15.721 9.181h-3.036v1.191L9.5 21.247h2.262l.893-3.076zm1.637-6.843 1.221 4.733h-2.441l1.22-4.733z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M3.002 2.316v27.007h27.582V2.316H3.002zm25.514 24.881H5.11V4.442h23.406v22.755z"
+                ></path>
+              </svg>
+            </p>
+            <!-- <p class="soft-box">
+              <svg xmlns="http://www.w3.org/2000/svg" id="photoshop">
+                <path
+                  fill="#fff"
+                  d="M3.556 2.845v27.071h27.53V2.845H3.556zm25.34 24.918H5.745V4.998h23.151v22.765z"
+                ></path>
+                <path
+                  fill="#fff"
+                  d="M16.555 10.442c-.693-.599-1.726-.939-3.173-.939-1.433 0-3.173.046-3.173.046v11.103h2.326v-3.568s.407-.005.847-.023c1.593-.067 2.526-.549 3.327-1.364.616-.631.955-1.53.955-2.627s-.447-2.062-1.109-2.628zm-3.235 4.673c-.375.004-.533.016-.786-.008v-3.834s.493-.017.971 0c1.198.044 1.833.89 1.833 1.921 0 1.148-.77 1.906-2.018 1.921zM22.205 15.455c-1.005-.356-1.324-.559-1.324-.949 0-.423.352-.677.972-.677.703 0 1.767.454 2.136.658v-1.871c-.502-.254-1.265-.566-2.22-.566-2.027 0-3.334 1.169-3.334 2.728-.017.965.636 1.655 2.329 2.231.955.322 1.206.767 1.206 1.191s-.318.695-1.089.695c-.754 0-1.86-.431-2.329-.718v1.847c.62.338 1.518.659 2.329.684 2.363.074 3.551-1.152 3.551-2.694-.017-1.22-.67-2.016-2.228-2.558z"
+                ></path>
+              </svg>
+            </p> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video Making -->
+
+    <section class="video-section sec-container">
+      <h2><i class="bi bi-play-circle-fill"></i><span> Video Making</span></h2>
+      <div class="video-container grid grid--3-column">
+        <div class="project">
+          <!-- <img src="img/project.png" alt="Project no 1" /> -->
+          <a
+            src="https://www.youtube.com/embed/eD51Wq7w9Go"
+            class="vid-prev-btn"
+          >
+            <div class="proj-img-box">
+              <img src="img/works/gl-vid-prev.png" alt="Project no 1" />
+              <i class="bi bi-play-circle play-icon"></i>
+            </div>
+          </a>
+          <h4>Motion Graphic</h4>
+          <p>
+            Produced a dynamic motion graphic demo video for cloud storage
+            services.
+          </p>
+          <div class="skills-contain">
+            <p class="skill-box">
+              <a href="https://youtu.be/eD51Wq7w9Go" target="_blank"
+                ><i class="bi bi-youtube"></i> YouTube
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <!-- <img src="img/project.png" alt="Project no 1" /> -->
+          <a
+            src="https://www.youtube.com/embed/UjY4sOkJzDk"
+            class="vid-prev-btn"
+          >
+            <div class="proj-img-box">
+              <img src="img/works/mob-prev.jpg" alt="Project no 1" />
+              <i class="bi bi-play-circle play-icon"></i>
+            </div>
+          </a>
+          <h4>Mobile Advertisement</h4>
+          <p>Made a mobile ad video using Blender and Premiere Pro.</p>
+          <div class="skills-contain">
+            <p class="skill-box">
+              <a href="https://youtu.be/UjY4sOkJzDk"
+                ><i class="bi bi-youtube"></i> YouTube
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <!-- <img src="img/project.png" alt="Project no 1" /> -->
+          <a
+            src="https://www.youtube.com/embed/eD51Wq7w9Go"
+            class="vid-prev-btn"
+          >
+            <div class="proj-img-box">
+              <img src="img/project.png" alt="Project no 1" />
+              <i class="bi bi-play-circle play-icon"></i>
+            </div>
+          </a>
+          <h4>Personal Portfolio</h4>
+          <p>Developed an interactive web application</p>
+          <div class="skills-contain">
+            <p class="skill-box">
+              <a href="#"
+                ><i class="bi bi-youtube"></i> YouTube
+                <ion-icon
+                  class="proj-link-ico"
+                  name="arrow-forward-outline"
+                ></ion-icon
+              ></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Preview Popup -->
+
+    <!-- img Preview -->
+    <div class="prev-popup">
+      <button class="close-popup"><i class="bi bi-x-lg"></i></button>
+      <div class="prev-layout"></div>
+      <div class="prev-container">
+        <img src="img/project.png" />
+      </div>
+    </div>
+
+    <!-- yt video Preview -->
+
+    <div class="yt-prev-popup">
+      <button class="close-popup yt-close"><i class="bi bi-x-lg"></i></button>
+      <div class="yt-prev-container">
+        <iframe
+          src=""
+          title="Rs.70,000/- Uruttu Ai Device? - MKBHD Vs Twitter Fight 🥊| Humane Investor SCAM?🤯"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <p>Contact Us</p>
+        <div class="social-icon">
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+        <p class="copyright-txt">&copy; Developed by Loganathan K</p>
+      </div>
+    </footer>
+
+    <!-- Script files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- ionic icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="js/script.js"></script>
+
+    <!-- Background Animation script -->
+    <script src="js/three.r134.min.js"></script>
+    <script src="js/vanta.net.min.js"></script>
+    <script>
+      VANTA.NET({
+        el: "#back",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x2e2e2e,
+        backgroundColor: 0x151515,
+      });
+    </script>
+  </body>
+</html>
